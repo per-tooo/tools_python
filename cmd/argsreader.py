@@ -10,9 +10,9 @@ def argumentIsset(argument:str) -> object:
   for index in range(0, len(getArgumentList())):
     item = getArgumentList()[index]
     if item == search:
-      isset = index
+      position = index
 
-  return isset
+  return position
 
 def getArgument(argument:str, startsWithDash:bool = False) -> object:
   position = argumentIsset(argument)
