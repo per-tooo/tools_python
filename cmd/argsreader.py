@@ -1,6 +1,6 @@
 from sys import argv
 
-def getArgumentsList() -> list:
+def getArgumentList() -> list:
   return argv[1:]
 
 def argumentIsset(argument:str) -> object:
